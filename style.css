@@ -20,6 +20,28 @@ section, footer {
     padding: 20px 0;
 }
 
+.about .scroll {
+    opacity: 0;
+    transform: translate(0, -40px);
+    transition: .5s;
+}
+
+.about .scroll.muncul {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+.services .scroll, .portfolio .scroll {
+    opacity: 0;
+    transform: translate(0, -40px);
+    transition: .5s;
+}
+
+.services .scroll.muncul, .portfolio .scroll.muncul {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
 
 
 
